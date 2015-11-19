@@ -40,15 +40,13 @@ sub fill_form {
 
 sub return {
     my ( $self, $mech ) = @_;
-		return (1,$mech->response->header('Location')) if $mech->response->is_redirect;
-		return (0,'Cannot find URL');
+		return (1, $mech->response->header('Location')) if $mech->response->is_redirect;
+		return (0, 'Cannot find URL');
 }
 
 sub _credentials { ($ENV{WEREPASTE_USER}, $ENV{WEREPASTE_PASS}) }
 
 1;
-
-
 __END__
 =pod
 
