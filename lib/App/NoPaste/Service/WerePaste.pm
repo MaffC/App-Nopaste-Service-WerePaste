@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package App::Nopaste::Service::WerePaste;
 {
-  $App::Nopaste::Service::WerePaste::VERSION = '0.001';
+  $App::Nopaste::Service::WerePaste::VERSION = '0.02';
 }
 use Encode qw/decode_utf8/;
 
@@ -62,13 +62,13 @@ version 0.004
 
 =head1 SYNOPSIS
 
-L<WerePaste|https://github.com/MaffC/WerePaste> Service for L<nopaste>.
+L<WerePaste|https://github.com/Maffsie/WerePaste> Service for L<nopaste>.
 
 To use, simple use:
 
     $ echo "text" | nopaste -s WerePaste
 
-By default it pastes to L<http://paste.were.space/|http://paste.were.space/>, but you can
+By default it pastes to L<http://paste.were.space>, but you can
 override this be setting the C<WEREPASTE_URL> environment variable.
 
 You can set HTTP Basic Auth credentials to use for the nopaste service
@@ -92,6 +92,31 @@ based on work by
 William Wolf <throughnothing@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
+
+The MIT License (MIT)
+
+Copyright (c) 2015 Matthew Connelly
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This work was originally based on works by William Wolf.
+The license for the original work (CC0) is as follows:
 
 
 William Wolf has dedicated the work to the Commons by waiving all of his

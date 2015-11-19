@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+t/00-load.t
+lib/App/Nopaste/Service/WerePaste.pm
