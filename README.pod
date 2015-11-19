@@ -6,7 +6,7 @@ App::Nopaste::Service::WerePaste - nopaste service for L<WerePaste>
 
 =head1 VERSION
 
-version 0.004
+version 0.02
 
 =head1 SYNOPSIS
 
